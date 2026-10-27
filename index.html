@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shashwat Tank Portfolio</title>
+<meta name="description" content="CPSC 581 (Fall 2026) individual design portfolio of Shashwat Tank, University of Calgary.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%237a2cff'/%3E%3Ccircle cx='11.5' cy='14' r='2' fill='%23fff'/%3E%3Ccircle cx='20.5' cy='14' r='2' fill='%23fff'/%3E%3Cpath d='M10 20q6 5 12 0' stroke='%23fff' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"><span id="bar"></span></div>
+
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="Back to top">
+    <span class="dot" aria-hidden="true"></span> Shashwat Tank
+  </a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav" id="menuBtn">Menu</button>
+  <nav id="nav" aria-label="Sections">
+    <a href="#philosophy">Philosophy</a>
+    <a href="#work">Work</a>
+    <a href="#gp1">Project 1</a>
+    <a href="#growth">Growth</a>
+    <a href="#about">About</a>
+    <button class="theme" id="themeBtn" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1Z"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <p class="eyebrow">CPSC 581 · Human-Computer Interaction II · Fall 2026</p>
+  <h1>I design by <span class="scribble">sketching wide</span>,<br>then testing what a first-time user actually <em>understands</em>.</h1>
+  <p class="lede">I'm Shashwat, a 4th-year Computer Science student at the University of Calgary. This portfolio collects my individual design work from the course projects: the sketches, the decisions, the evaluation, and what I learned along the way.</p>
+  <div class="hero-cta">
+    <a class="btn primary" href="#gp1">Read the Project 1 case study</a>
+    <a class="btn" href="https://fourpartharmony.netlify.app" target="_blank" rel="noopener">Visit the live website ↗</a>
+  </div>
+  <figure class="hero-fig">
+    <div class="hero-stack">
+      <img class="paper tilt-l" src="assets/sketch-01-anime.png" alt="My first concept sketch: a character surrounded by floating anime symbols" width="628" height="458">
+      <span class="hand arrow-note" aria-hidden="true">sketch →</span>
+      <img class="screen tilt-r" src="assets/full-band.jpg" alt="The finished Four-Part Harmony app with all four teammates playing" width="1600" height="935">
+      <span class="hand arrow-note2" aria-hidden="true">← shipped</span>
+    </div>
+    <figcaption>From my first concept sketch to the finished app.</figcaption>
+  </figure>
+</section>
+
+<!-- ============ PHILOSOPHY ============ -->
+<section class="section" id="philosophy">
+  <div class="sec-head">
+    <span class="num">01</span>
+    <h2>My design philosophy</h2>
+    <p>Four ideas I keep coming back to. Each one comes from something that happened in a project, so each links to the evidence.</p>
+  </div>
+  <ol class="principles">
+    <li>
+      <span class="p-num">i</span>
+      <h3>Sketch wide before building narrow.</h3>
+      <p>Sketches are cheap and you can throw them away, so make lots of them. In Project 1, sketching four separate concepts showed us that they all <b>failed in the same way</b>. One sketch alone would never have shown that.</p>
+      <a href="#diverge">Evidence: divergence →</a>
+    </li>
+    <li>
+      <span class="p-num">ii</span>
+      <h3>Show behaviour, not labels.</h3>
+      <p>People notice how something acts faster than they read a description of it. Personality became <b>tempo, timing and sync</b>, which you hear and see, instead of a paragraph of personality scores.</p>
+      <a href="#mapping">Evidence: trait mapping →</a>
+    </li>
+    <li>
+      <span class="p-num">iii</span>
+      <h3>The stage speaks; the text confirms.</h3>
+      <p>If the interface needs a long explanation, the interface needs work. When our side panel got heavy with text, the fix was to <b>cut it down</b> and let the animation and state colours carry the meaning.</p>
+      <a href="#iterate">Evidence: refinements →</a>
+    </li>
+    <li>
+      <span class="p-num">iv</span>
+      <h3>Only claim what the system can back up.</h3>
+      <p>Words are part of the interface. "People who are alike fall into the same beat" sounded nice but promised too much. I would rather say less and have every claim be true.</p>
+      <a href="#wording">Evidence: wording →</a>
+    </li>
+  </ol>
+</section>
+
+<!-- ============ WORK INDEX ============ -->
+<section class="section" id="work">
+  <div class="sec-head">
+    <span class="num">02</span>
+    <h2>Work</h2>
+    <p>This page grows as the course goes on. Each project gets its own case study.</p>
+  </div>
+  <div class="cards">
+    <a class="card live" href="#gp1">
+      <div class="card-img dark"><img src="assets/final-interface.jpg" alt="" loading="lazy" width="1600" height="944"></div>
+      <div class="card-body">
+        <span class="tag">Group Project 1 · Complete</span>
+        <h3>Four-Part Harmony</h3>
+        <p>A family of four buttons, one per teammate. Each one wakes up as a musician whose playing is driven by their personality.</p>
+        <ul class="chips"><li>Sketching</li><li>Divergent / convergent</li><li>Heuristic evaluation</li><li>Web Audio</li></ul>
+      </div>
+    </a>
+    <div class="card soon" aria-label="Group Project 2, coming soon">
+      <div class="card-img placeholder"><span class="hand">Group Project 2<br>coming soon</span></div>
+      <div class="card-body">
+        <span class="tag muted">Group Project 2 · In progress</span>
+        <h3>Next project</h3>
+        <p>This case study will be added before Check-in 2.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CASE STUDY GP1 ============ -->
+<article class="case" id="gp1">
+  <header class="case-head">
+    <p class="eyebrow">Case study · Group Project 1 · "A Family of Buttons"</p>
+    <h2 class="case-title">Four-Part Harmony</h2>
+    <p class="lede">How do you show four different people <i>and</i> how they work together, using nothing but four buttons? Our answer: make each teammate a musician, and let their personalities decide whether they play in sync.</p>
+
+    <dl class="facts">
+      <div><dt>Team</dt><dd>Hardik Mehta, <b>Shashwat Tank</b>, Happy Prajapati, Jawad Naheen Shamim<br><span class="muted">Tutorial 2 · Group 5</span></dd></div>
+      <div><dt>My role</dt><dd>Sketching &amp; ideation · Evaluation &amp; write-up</dd></div>
+      <div><dt>Methods</dt><dd>Low-fi sketching, divergent/convergent ideation, criteria matrix, heuristic review</dd></div>
+      <div><dt>Tools</dt><dd>iPad sketching, HTML/CSS/JS, Canvas, Web Audio API, Figma colour resources, GitHub, Word</dd></div>
+    </dl>
+
+    <div class="contrib">
+      <h3>What I personally did</h3>
+      <div class="contrib-grid">
+        <div class="contrib-item">
+          <span class="hand big">✎</span>
+          <h4>Sketching &amp; ideation</h4>
+          <p>I drew <b>Sketch 1, the anime concept</b> for my own button, and worked on the team's divergent and convergent sketching. That included helping move us from four separate profiles to one shared band.</p>
+        </div>
+        <div class="contrib-item">
+          <span class="hand big">✓</span>
+          <h4>Evaluation &amp; write-up</h4>
+          <p>I worked on the <b>heuristic review</b> of the working prototype, turned what we found into the issue → refinement → reason tables, and helped structure the report so each design change can be traced back to evidence.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- process rail -->
+  <nav class="rail" aria-label="Design process stages">
+    <a href="#diverge"><b>1</b>Diverge</a>
+    <a href="#converge"><b>2</b>Converge</a>
+    <a href="#prototype"><b>3</b>Prototype</a>
+    <a href="#evaluate"><b>4</b>Evaluate</a>
+    <a href="#iterate"><b>5</b>Refine</a>
+  </nav>
+
+  <!-- DIVERGE -->
+  <section class="block" id="diverge">
+    <p class="stage-label">Stage 1 · Diverge</p>
+    <h3 class="block-title">Four people, four sketches, one shared problem</h3>
+    <p>We started with quick low-fidelity iPad sketches, one interest-based idea per teammate. The goal at this stage was lots of ideas, not good-looking ones. Mine was an anime concept: tap to cycle through symbols that float around the character.</p>
+    <div class="sketch-grid">
+      <figure class="sketch mine"><span class="badge">My sketch</span><img src="assets/sketch-01-anime.png" alt="Sketch 1: Shashwat anime concept, symbols float out of the character" loading="lazy" width="628" height="458"><figcaption><b>S1 · Shashwat</b>, anime: tap to cycle floating symbols</figcaption></figure>
+      <figure class="sketch"><img src="assets/sketch-02-gym.png" alt="Sketch 2: Happy lifting weights" loading="lazy" width="650" height="464"><figcaption><b>S2 · Happy</b>, gym: tap to lift and count reps</figcaption></figure>
+      <figure class="sketch"><img src="assets/sketch-03-travel.png" alt="Sketch 3: Hardik's suitcase opening" loading="lazy" width="650" height="464"><figcaption><b>S3 · Hardik</b>, travel: suitcase opens to a ticket and map</figcaption></figure>
+      <figure class="sketch"><img src="assets/sketch-04-events.png" alt="Sketch 4: Jawad's event ticket" loading="lazy" width="650" height="464"><figcaption><b>S4 · Jawad</b>, events: a ticket shows his next event</figcaption></figure>
+    </div>
+    <div class="insight">
+      <span class="hand">the catch</span>
+      <p>Each sketch was easy to recognize as its person, but every one of them was <b>a profile, not a family</b>. Nothing happened when two buttons were active together. Because we had four sketches side by side, this weakness was obvious. With only one, we would have missed it.</p>
+    </div>
+    <p>So the question changed from <i>"What represents each person?"</i> to <i>"What happens when all four buttons live in the same system?"</i></p>
+    <figure class="sketch wide"><img src="assets/sketch-05-shared-room.png" alt="Sketch 5: four characters with icons, each with a tap me label" loading="lazy" width="894" height="466"><figcaption><b>S5</b>, shared room: everyone together, each showing their interest</figcaption></figure>
+  </section>
+
+  <!-- CONVERGE -->
+  <section class="block" id="converge">
+    <p class="stage-label">Stage 2 · Converge</p>
+    <h3 class="block-title">Choosing by criteria, not by taste</h3>
+    <p>We scored four directions against criteria taken from the brief. A band was the only one strong on both <b>individual identity</b> and <b>team dynamics</b>.</p>
+    <div class="matrix" role="table" aria-label="Concept comparison">
+      <div class="mrow mhead" role="row"><span role="columnheader">Direction</span><span role="columnheader">Identity</span><span role="columnheader">Team dynamics</span><span role="columnheader">Why it fell short or won</span></div>
+      <div class="mrow" role="row"><span role="cell">Separate interest buttons</span><span role="cell"><i class="lvl l3">Strong</i></span><span role="cell"><i class="lvl l1">Limited</i></span><span role="cell">Four separate profiles</span></div>
+      <div class="mrow" role="row"><span role="cell">Shared room</span><span role="cell"><i class="lvl l2">Moderate</i></span><span role="cell"><i class="lvl l2">Moderate</i></span><span role="cell">No metaphor for how personalities differ</span></div>
+      <div class="mrow" role="row"><span role="cell">Reaction field</span><span role="cell"><i class="lvl l2">Moderate</i></span><span role="cell"><i class="lvl l3">Strong</i></span><span role="cell">Too abstract, needed explaining</span></div>
+      <div class="mrow win" role="row"><span role="cell">Music band ★</span><span role="cell"><i class="lvl l3">Strong</i></span><span role="cell"><i class="lvl l3">Strong</i></span><span role="cell">Rhythm shows the person; sync shows the relationship</span></div>
+    </div>
+    <figure class="sketch wide"><img src="assets/sketch-06-band.png" alt="Sketch 6: all four characters on a stage with instruments" loading="lazy" width="1026" height="566"><figcaption><b>S6</b>, first band concept: one stage, four distinct musical roles</figcaption></figure>
+
+    <h4 class="sub" id="mapping">Turning personality into behaviour</h4>
+    <p>We used hobbies to make each teammate <b>recognizable</b> and Big Five survey results to drive how they <b>behave</b>. That way they never become anonymous data points.</p>
+    <div class="maptable">
+      <div><span>Activity level</span><b>Tempo (BPM)</b></div>
+      <div><span>Conscientiousness</span><b>Timing tightness</b></div>
+      <div><span>Emotionality</span><b>Vibrato, echo, wobble</b></div>
+      <div><span>Openness</span><b>How often the pattern changes</b></div>
+      <div><span>Extraversion</span><b>Presence, size, bounce</b></div>
+      <div><span>Agreeableness</span><b>How readily they follow others</b></div>
+    </div>
+  </section>
+
+  <!-- PROTOTYPE -->
+  <section class="block" id="prototype">
+    <p class="stage-label">Stage 3 · Prototype</p>
+    <h3 class="block-title">Making the relationships visible, then interactive</h3>
+    <div class="two">
+      <div>
+        <figure class="sketch"><img src="assets/sketch-07-personality.png" alt="Sketch 7: four round characters with accessories" loading="lazy" width="792" height="314"><figcaption><b>S7</b>, small accessories show who is who</figcaption></figure>
+        <figure class="sketch"><img src="assets/sketch-08-sync.png" alt="Sketch 8: two characters, Syncing and Drifting labels" loading="lazy" width="464" height="438"><figcaption><b>S8</b>, drifting → syncing → in sync</figcaption></figure>
+      </div>
+      <div>
+        <p><b>Iteration 1: synchronization.</b> Four musicians playing side by side are still four separate profiles. Adding rhythmic sync (a coupled-oscillator model) meant a second button creates a <i>relationship</i>, not just another sound. More similar pairs pull toward a shared beat more strongly.</p>
+        <figure class="sketch"><img src="assets/sketch-09-drag.png" alt="Sketch 9: drag two characters closer" loading="lazy" width="730" height="414"><figcaption><b>S9</b>, drag closer to strengthen influence</figcaption></figure>
+        <p><b>Iteration 2: dragging.</b> Users were still only watching. Now distance controls <i>how strongly</i> two people interact right now, while similarity stays fixed as <i>who they are</i>. That gives users an experiment to run: can a pair that won't sync on its own get there if you move them closer?</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVALUATE -->
+  <section class="block highlight" id="evaluate">
+    <p class="stage-label">Stage 4 · Evaluate <span class="mine-tag">my focus</span></p>
+    <h3 class="block-title">The risk wasn't "does it run?" It was "does a first-timer get it?"</h3>
+    <p>I worked on the heuristic review of the working prototype. I chose five of Nielsen's heuristics that fit our main risk: whether a new user could understand what <i>waking</i>, <i>drifting</i>, <i>in sync</i> and <i>dragging</i> mean.</p>
+    <ul class="heuristics">
+      <li>Visibility of system status</li><li>User control &amp; freedom</li><li>Consistency</li><li>Recognition over recall</li><li>Aesthetic &amp; minimalist design</li>
+    </ul>
+    <div class="findings">
+      <div class="f"><span class="fh">Issue</span><p>The side panel got heavy with text as we added more personality info.</p><span class="fh">→ Refinement</span><p>Moved details into a collapsible section; kept the active state short.</p><span class="tag">Minimalist design</span></div>
+      <div class="f"><span class="fh">Issue</span><p>Dragging felt disconnected while users waited for sync to happen.</p><span class="fh">→ Refinement</span><p>Immediate visual and status feedback during the drag.</p><span class="tag">System status</span></div>
+      <div class="f"><span class="fh">Issue</span><p>Pair relationships were hard to hear from sound alone.</p><span class="fh">→ Refinement</span><p>Added relationship lines and state labels on top of the audio.</p><span class="tag">Recognition</span></div>
+      <div class="f"><span class="fh">Issue</span><p>Utility controls competed with the four teammate buttons.</p><span class="fh">→ Refinement</span><p>Reset and Sound made visually secondary.</p><span class="tag">Consistency / focus</span></div>
+    </div>
+    <p class="note">In the write-up, I set up every change as <b>issue → refinement → why it mattered</b>, so a reader can trace each design decision back to something we observed.</p>
+  </section>
+
+  <!-- REFINE -->
+  <section class="block" id="iterate">
+    <p class="stage-label">Stage 5 · Refine</p>
+    <h3 class="block-title">Before &amp; after</h3>
+    <p>Use the toggle to compare the earlier build with the final one.</p>
+
+    <div class="ba" data-ba>
+      <div class="ba-top">
+        <h4>Colour &amp; visual identity</h4>
+        <div class="seg" role="group" aria-label="Compare versions"><button aria-pressed="true" data-v="a">Before</button><button aria-pressed="false" data-v="b">After</button></div>
+      </div>
+      <div class="ba-frame"><img data-a src="assets/build-v1.jpg" alt="Earlier build with a dark blue interface and muted colours" loading="lazy"><img data-b src="assets/build-final.jpg" alt="Final build with a near-black stage and neon accents" hidden></div>
+      <p class="caption">Muted dark blue → a near-black "Neon Noir" stage. Colour now carries status too: <span class="pill g">green = In sync</span> <span class="pill p">purple = Drifting</span> <span class="pill n">grey = Waiting</span>.</p>
+    </div>
+
+    <div class="ba" data-ba>
+      <div class="ba-top">
+        <h4>Information hierarchy &amp; pair feedback</h4>
+        <div class="seg" role="group" aria-label="Compare versions"><button aria-pressed="true" data-v="a">Before</button><button aria-pressed="false" data-v="b">After</button></div>
+      </div>
+      <div class="ba-frame"><img data-a src="assets/pair-v1.jpg" alt="Earlier pair view with dense trait lists in each card" loading="lazy"><img data-b src="assets/pair-final.jpg" alt="Final pair view with compact cards and closest and different facet tags" hidden></div>
+      <p class="caption">A bare "64% alike" didn't explain anything. Now it reads <b>personality similarity</b> and is tagged with the facet where the pair is <b>closest</b> and the one where they <b>differ</b> most.</p>
+    </div>
+
+    <div class="ba" data-ba id="wording">
+      <div class="ba-top">
+        <h4>Wording precision</h4>
+        <div class="seg" role="group" aria-label="Compare versions"><button aria-pressed="true" data-v="a">Before</button><button aria-pressed="false" data-v="b">After</button></div>
+      </div>
+      <div class="ba-frame"><img data-a src="assets/intro-v1.jpg" alt="Earlier onboarding dialog" loading="lazy"><img data-b src="assets/intro-final.jpg" alt="Final, shorter onboarding dialog" hidden></div>
+      <div class="rewrites">
+        <div><s>People who are alike fall into the same beat</s><span>Teammates with more similar profiles tend to synchronize more easily</span></div>
+        <div><s>% alike</s><span>personality similarity</span></div>
+        <div><s>in step</s><span>In sync</span></div>
+        <div><s>Bring them on stage</s><span>wake them up</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section class="block">
+    <h3 class="block-title">The final app</h3>
+    <figure class="screen-fig"><img src="assets/full-band.jpg" alt="Final app: all four teammates awake, glowing, with sync lines and similarity labels between pairs" loading="lazy" width="1600" height="935"><figcaption>The full band: the stage carries most of the meaning, and the side panel backs it up.</figcaption></figure>
+    <div class="trace">
+      <div><span>Concepts were individuals, not a team</span><b>One shared band, a distinct role each</b></div>
+      <div><span>Hobbies alone were too literal</span><b>Hobbies = likeness · personality = behaviour</b></div>
+      <div><span>Musicians could still play alone</span><b>Pair synchronization</b></div>
+      <div><span>Users could only watch</span><b>Drag: proximity = interaction strength</b></div>
+      <div><span>Relationships hard to read</span><b>Lines + state labels + colour</b></div>
+      <div><span>Too much text</span><b>Stage first; details collapsible</b></div>
+    </div>
+  </section>
+
+  <!-- REFLECTION -->
+  <section class="block reflect">
+    <h3 class="block-title">Reflection: what I'm taking forward</h3>
+    <div class="reflect-grid">
+      <div><h4>What worked</h4><p>Putting all four sketches side by side found our biggest problem before we wrote any code. Choosing by criteria also kept the band decision from turning into a matter of personal taste.</p></div>
+      <div><h4>What I'd change</h4><p>Our evaluation was mostly team walkthroughs plus a heuristic review. Next time I want <b>a few first-time users doing think-aloud sessions</b>. Our known issue, the sync state flickering for the first few seconds, is exactly the kind of thing real users would have caught sooner.</p></div>
+      <div><h4>Open issues I'd own</h4><p>Labels overlap when characters are dragged very close, and the app hasn't had a full accessibility review. Colour is backed by text labels, but keyboard dragging is still missing.</p></div>
+    </div>
+  </section>
+
+</article>
+
+<!-- ============ GROWTH ============ -->
+<section class="section" id="growth">
+  <div class="sec-head">
+    <span class="num">03</span>
+    <h2>Growth log</h2>
+    <p>A running record of my design growth and updates to this portfolio, one entry per check-in.</p>
+  </div>
+  <ol class="log">
+    <li class="done">
+      <time>Check-in 1 · Oct 2026</time>
+      <h3>Group Project 1: Four-Part Harmony</h3>
+      <p><b>Skills shown:</b> low-fidelity divergent sketching, criteria-based convergence, heuristic evaluation, tracing evidence to design decisions.</p>
+      <p><b>Growth:</b> I started out thinking about one button = one person. I came out thinking in <b>systems</b>: what each part means, and also what the parts mean <i>together</i>.</p>
+    </li>
+    <li class="next">
+      <time>Check-in 2</time>
+      <h3>Group Project 2</h3>
+      <p>Coming soon. Goal for this project: add real first-time user testing (think-aloud) to the evaluation stage.</p>
+    </li>
+    <li class="next">
+      <time>Final submission</time>
+      <h3>Final reflection</h3>
+      <p>How my design philosophy changed over the term.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+  <div class="sec-head">
+    <span class="num">04</span>
+    <h2>About me</h2>
+  </div>
+  <div class="about-grid">
+    <p>4th-year Computer Science student at the University of Calgary (Dean's List 2026). Outside class I work as a poker dealer at a casino, where a lot of the job is reading a table of strangers and keeping a complicated system clear for everyone at it. That habit shows up in how I design: I watch what people actually do, not what I expected them to do.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <p><b>AI disclosure.</b> All of the direction, drafting and structure of this portfolio is my own, and I built the website with help from Claude (Anthropic). The project work, sketches and design decisions are our team's. The Project 1 app's own AI use is disclosed in the team write-up.</p>
+  <p class="muted">© 2026 Shashwat Tank · CPSC 581 F26 · University of Calgary</p>
+</footer>
+
+<div class="lightbox" id="lb" hidden role="dialog" aria-modal="true" aria-label="Enlarged image">
+  <button class="lb-close" aria-label="Close">×</button>
+  <img alt="">
+  <p class="lb-cap"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
